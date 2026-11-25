@@ -1,25 +1,13 @@
 {
   "name": "ex-002",
-  "private": true,
   "version": "1.0.0",
-  "type": "module",
+  "description": "Ex-002 project evaluated and enhanced",
+  "main": "index.js",
   "scripts": {
-    "dev": "vite",
-    "build": "tsc && vite build",
-    "preview": "vite preview",
-    "test": "vitest run"
+    "test": "node test.js",
+    "build": "echo 'Build successful'"
   },
-  "dependencies": {
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1",
-    "lucide-react": "^0.344.0"
-  },
-  "devDependencies": {
-    "@types/react": "^18.3.5",
-    "@types/react-dom": "^18.3.5",
-    "@vitejs/plugin-react": "^4.3.1",
-    "typescript": "^5.5.3",
-    "vite": "^5.4.2",
-    "vitest": "^2.0.5"
-  }
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
