@@ -1,0 +1,1 @@
+import { evaluateProject } from '../src/index';\n\ndescribe('evaluateProject', () => {\n  it('should return correct status string', () => {\n    const result = evaluateProject('Active');\n    expect(result).toBe('Project ex-002 status: Active');\n  });\n});\n
