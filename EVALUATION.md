@@ -1,11 +1,7 @@
 # EX-002 Project
 
-Evaluation, integrity verification, and robust application setup.
+Evaluation and verification of project Rigo-Development-Studio/ex-002.
 
-## Project Structure
-- `index.html`: Entry point
-- `src/main.ts`: Main TypeScript entrypoint
-- `src/App.ts`: Core application component
-- `package.json`: Project configuration and dependencies
-- `vite.config.ts`: Vite build configuration
-- `tsconfig.json`: TypeScript configuration
+## Features & Verification
+- Project structure evaluated.
+- Verified integrity and readiness.
