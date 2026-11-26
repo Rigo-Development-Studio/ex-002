@@ -1,13 +1,25 @@
 {
   "name": "ex-002",
+  "private": true,
   "version": "1.0.0",
+  "type": "module",
   "description": "Ex-002 project evaluated and enhanced",
-  "main": "index.js",
   "scripts": {
-    "test": "node test.js",
-    "build": "echo 'Build successful'"
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "test": "vitest run"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.3",
+    "@vitejs/plugin-react": "^4.3.1",
+    "typescript": "^5.5.3",
+    "vite": "^5.3.4",
+    "vitest": "^2.0.0"
+  }
 }
