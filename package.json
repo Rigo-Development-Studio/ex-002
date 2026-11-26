@@ -1,0 +1,13 @@
+{
+  "name": "ex-002",
+  "version": "1.0.0",
+  "description": "Project evaluation and stability repository",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js",
+    "build": "echo 'Build successful'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
